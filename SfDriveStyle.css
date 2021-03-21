@@ -1,0 +1,443 @@
+
+body{
+    position: relative;
+    width: 1440px;
+    height: 2183px;
+
+    background: #FFFFFF;
+}
+header{
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    left: 0;
+    top: 0;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 30px;
+
+    position: absolute;
+    width: 106px;
+    height: 43px;
+    right: 40px;
+    top: 23px;
+
+    border: 1px solid rgba(27, 27, 27, 0.4);
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #FFFFFF;
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightpink;
+}
+
+h1{
+    position: absolute;
+    width: 165px;
+    height: 77px;
+    left: 638px;
+    top: 531px;
+
+    /* H1 Desktop */
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 120%;
+    /* identical to box height, or 77px */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #1B1B1B;
+}
+h2{
+    position: absolute;
+    width: 224px;
+    height: 58px;
+    left: 607px;
+    top: 903px;
+
+    /* H2 Desktop */
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #1B1B1B;
+}
+h3{
+    position: absolute;
+    width: 203px;
+    height: 58px;
+    left: 618px;
+    top: 1244px;
+
+    /* H2 Desktop */
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #1B1B1B;
+}
+
+
+.logo{
+    position: absolute;
+    width: 115px;
+    height: 28px;
+    left: 40px;
+    top: 31px;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:hover{
+    background: #ffb6c1;
+}
+
+.menu-aboutUs{
+
+    position: absolute;
+    width: 42px;
+    height: 19px;
+    right: 437px;
+    top: 35px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    /* Black */
+
+    color: #1B1B1B;
+
+}
+.menu-term{
+    position: absolute;
+    width: 64px;
+    height: 19px;
+    right: 343px;
+    top: 35px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* Black */
+    color: #1B1B1B;
+}
+.menu-questions{
+    position: absolute;
+    width: 127px;
+    height: 19px;
+    right: 186px;
+    top: 35px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    /* Black */
+    color: #1B1B1B;
+
+}
+.drawTeam{
+    position: absolute;
+    width: 397px;
+    height: 300px;
+    left: 522px;
+    top: 170px;
+}
+.aboutUs{
+    position: absolute;
+    width: 925px;
+    height: 105px;
+    left: 258px;
+    top: 638px;
+
+    /* Text L */
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 147.3%;
+    /* or 35px */
+
+    text-align: center;
+
+    /* Black */
+
+    color: #1B1B1B;
+
+}
+.telephoneNumber{
+    position: absolute;
+    width: 264px;
+    height: 29px;
+    left: 789px;
+    top: 1030px;
+
+    /* Text M */
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 147.3%;
+    /* or 29px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+
+.telephoneText{
+    position: absolute;
+    width: 264px;
+    height: 21px;
+    left: 789px;
+    top: 1004px;
+
+    /* Text S */
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.3%;
+    /* identical to box height, or 21px */
+
+    text-align: center;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+.emailText{
+    position: absolute;
+    width: 264px;
+    height: 21px;
+    left: 387px;
+    top: 1004px;
+
+    /* Text S */
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.3%;
+    /* identical to box height, or 21px */
+
+    text-align: center;
+
+    /* Gray 2 */
+
+    color: #4F4F4F;
+}
+.emailAdress{
+    position: absolute;
+    width: 264px;
+    height: 29px;
+    left: 387px;
+    top: 1031px;
+
+    /* Text M */
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 147.3%;
+    /* or 29px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.contactBackdrop{
+    position: absolute;
+    width: 1440px;
+    height: 341px;
+    left: 0;
+    top: 823px;
+
+    background: #F7F9FB;
+
+}
+.betweenLine{
+    position: absolute;
+    width: 1px;
+    height: 62px;
+    left: 720px;
+    top: 1001px;
+
+}
+.name{
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 147.3%;
+    /* or 29px */
+    text-align: center;
+
+    color: #000000;
+}
+.profession{
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.3%;
+    /* identical to box height, or 21px */
+
+    text-align: center;
+
+    /* Gray 3 */
+
+    color: #828282;
+}
+
+.teamRoster{
+    width: 980px;
+    height: 695px;
+    left: 229px;
+    top: 1244px;
+}
+
+.teamMember1{
+    position: absolute;
+    width: 196px;
+    height: 261px;
+    left: 229px;
+    top: 1357px;
+
+}
+.teamMember2{
+    position: absolute;
+    width: 196px;
+    height: 261px;
+    left: 490px;
+    top: 1357px;
+}
+.teamMember3{
+
+    position: absolute;
+    width: 196px;
+    height: 261px;
+    left: 752px;
+    top: 1357px;
+}
+.teamMember4{
+    position: absolute;
+    width: 196px;
+    height: 261px;
+    left: 1013px;
+    top: 1357px;
+
+}
+.teamMember5{
+    position: absolute;
+    width: 196px;
+    height: 261px;
+    left: 490px;
+    top: 1678px;
+}
+.teamMember6{
+    position: absolute;
+    width: 196px;
+    height: 261px;
+    left: 752px;
+    top: 1678px;
+}
+.footerBackdrop{
+    position: absolute;
+    width: 1440px;
+    height: 124px;
+    left: 0;
+    top: 2059px;
+
+    background: #3F3D56;
+}
+
+.copyRight{
+    position: absolute;
+    width: 152px;
+    height: 19px;
+    right: 1248px;
+    top: 2112px;
+
+    font-family: Roboto, serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+
+    opacity: 0.4;
+}
+.facebook{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1368px;
+    top: 2105px;
+}
+.instagramm{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1322px;
+    top: 2105px;
+
+}
+.vk{
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 1276px;
+    top: 2105px;
+
+}
+
+
